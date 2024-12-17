@@ -1,7 +1,5 @@
 set(BUILD_DIR ${CMAKE_BINARY_DIR}/build${CMAKE_SYSTEM_PROCESSOR})
 
-include_directories(custom ../include)
-
 set(C_SRCS
     curve25519_mehdi.c
     curve25519_order.c
